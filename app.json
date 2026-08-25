@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Sankalpam Pujari",
+    "slug": "sankalpam-pujari",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "sankalpampujari",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#0E3B33",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "in.co.sankalpam.pujari"
+    },
+    "android": {
+      "package": "in.co.sankalpam.pujari",
+      "edgeToEdgeEnabled": true,
+      "adaptiveIcon": {
+        "backgroundColor": "#0E3B33"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-splash-screen"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
